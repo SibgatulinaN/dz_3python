@@ -10,10 +10,10 @@ for i in range(N):
     n = int(input("Введите число: ")) 
     list_1.append(n) 
 print(list_1) 
-arr = list(map(int, list_1))
+A = list(map(int, list_1))
 x = int (input('Введите число х: '))
 count = 0
 for i in range(N):
-        if arr [i] == x:
+        if A [i] == x:
             count += 1
 print(count)
